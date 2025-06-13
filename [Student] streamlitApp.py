@@ -1,6 +1,6 @@
 import streamlit as st
 import io
-#import cv2
+
 import torch
 import torchvision.transforms as transforms
 from PIL import Image
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from utils.dataloader import get_train_test_loaders
+
 from utils.model import CustomVGG
 
 
