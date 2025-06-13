@@ -31,7 +31,7 @@ st.write(
 
 # Fix path with raw string
 with st.sidebar:
-    img = Image.open(r"C:\Users\Haha CORPORATION\OneDrive\Desktop\week-13\Dependencies\InspectorsAlly - Anomaly Detection\docs\overview_dataset.jpg")
+    img = Image.open(r"overview_dataset.jpg")
     st.image(img)
     st.subheader("About InspectorsAlly")
     st.write(
