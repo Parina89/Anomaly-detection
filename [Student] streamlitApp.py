@@ -75,7 +75,7 @@ def Anomaly_Detection(pil_image, root):
     """
     model_path = r"model.pth"
     model = torch.load(model_path, map_location=device)
-    model.eval()
+    #model.eval()
 
     transform = transforms.Compose([
         transforms.Resize((224, 224)),
