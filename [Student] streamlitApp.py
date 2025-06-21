@@ -73,7 +73,7 @@ def Anomaly_Detection(pil_image, root):
     """
     Perform anomaly detection on a PIL image.
     """
-    model_path = r"C:\Users\Haha CORPORATION\OneDrive\Desktop\week-13\Dependencies\InspectorsAlly - Anomaly Detection\weights\leather_model.h5"
+    model_path = r"model.pth"
     model = torch.load(model_path, map_location=device)
     model.eval()
 
